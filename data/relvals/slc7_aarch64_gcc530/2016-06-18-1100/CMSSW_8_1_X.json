@@ -99,6 +99,33 @@
     },
     {
         "exitcode": 0,
+        "id": "4.44",
+        "name": "RunElectron2012A+RunElectron2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 422,
+                "status": "PASSED",
+                "warnings": 445
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.45",
         "name": "RunJet2012A+RunJet2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
         "steps": [
@@ -879,6 +906,33 @@
                 "errors": 147,
                 "status": "PASSED",
                 "warnings": 125
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.701",
+        "name": "RunHLTPhy2015B+RunHLTPhy2015B+HLTDR2_50ns+RECODR2_50nsreHLT+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 11
+            },
+            {
+                "errors": 566,
+                "status": "PASSED",
+                "warnings": 479
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 7
             }
         ]
     },
