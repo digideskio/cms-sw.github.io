@@ -1417,6 +1417,28 @@
     },
     {
         "exitcode": 0,
+        "id": "112.0",
+        "name": "QCD_Pt_15_20+QCD_Pt_15_20+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 14
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 48,
+                "status": "PASSED",
+                "warnings": 99
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "113.0",
         "name": "QCD_Pt_20_30+QCD_Pt_20_30+DIGI+RECO",
         "steps": [
