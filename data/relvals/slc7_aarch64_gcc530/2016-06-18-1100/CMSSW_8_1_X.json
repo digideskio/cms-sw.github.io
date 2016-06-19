@@ -482,6 +482,33 @@
     },
     {
         "exitcode": 0,
+        "id": "34.0",
+        "name": "QQH1352T+QQH1352T+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 16
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 15
+            },
+            {
+                "errors": 53,
+                "status": "PASSED",
+                "warnings": 103
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "36.0",
         "name": "Wjet_Pt_3000_3500+Wjet_Pt_3000_3500INPUT+DIGI+RECO+HARVEST",
         "steps": [
@@ -990,6 +1017,33 @@
     },
     {
         "exitcode": 0,
+        "id": "134.902",
+        "name": "RunDoubleEG2015D+RunDoubleEG2015D+HLTDR2_25ns+RECODR2_25nsreHLT+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            },
+            {
+                "errors": 751,
+                "status": "PASSED",
+                "warnings": 551
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "134.904",
         "name": "RunJetHT2015D+RunJetHT2015D+HLTDR2_25ns+RECODR2_25nsreHLT+HARVESTDR2",
         "steps": [
@@ -1147,6 +1201,28 @@
                 "errors": 1,
                 "status": "PASSED",
                 "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "135.1",
+        "name": "TTbar_13+TTbarFS_13+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 36
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 3
             }
         ]
     },
@@ -2372,6 +2448,28 @@
                 "errors": 1,
                 "status": "PASSED",
                 "warnings": 60
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 3
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250406.0",
+        "name": "ZMM_13+FS_ZMM_13_PRMXUP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 96
             },
             {
                 "errors": 4,

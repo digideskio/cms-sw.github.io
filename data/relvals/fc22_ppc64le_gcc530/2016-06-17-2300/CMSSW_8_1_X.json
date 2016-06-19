@@ -1766,6 +1766,28 @@
     },
     {
         "exitcode": 0,
+        "id": "107.0",
+        "name": "QQH120Inv+QQH120Inv+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 26
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 51,
+                "status": "PASSED",
+                "warnings": 120
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "108.0",
         "name": "H165WW2L+H165WW2L+DIGI+RECO",
         "steps": [
@@ -1805,6 +1827,28 @@
                 "errors": 87,
                 "status": "PASSED",
                 "warnings": 111
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "112.0",
+        "name": "QCD_Pt_15_20+QCD_Pt_15_20+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 29
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
+            },
+            {
+                "errors": 48,
+                "status": "PASSED",
+                "warnings": 99
             }
         ]
     },
@@ -1959,6 +2003,33 @@
                 "errors": 105,
                 "status": "PASSED",
                 "warnings": 109
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.705",
+        "name": "RunMET2015B+RunMET2015B+HLTDR2_50ns+RECODR2_50nsreHLT+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
+            },
+            {
+                "errors": 913,
+                "status": "PASSED",
+                "warnings": 486
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 7
             }
         ]
     },
@@ -2467,6 +2538,28 @@
                 "errors": 330,
                 "status": "PASSED",
                 "warnings": 263
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "140.53",
+        "name": "RunHI2011+RunHI2011+RECOHID11+HARVESTDHI",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2453,
+                "status": "PASSED",
+                "warnings": 363
             },
             {
                 "errors": 0,
@@ -3956,6 +4049,28 @@
     },
     {
         "exitcode": 0,
+        "id": "250400.0",
+        "name": "ZEE_13+FS_ZEE_13_PRMXUP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 100
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "250402.0",
         "name": "TTbar_13+FS_TTbar_13_PRMXUP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
         "steps": [
@@ -3995,6 +4110,50 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250405.0",
+        "name": "ZTT_13+FS_ZTT_13_PRMXUP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 64
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 5
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250407.0",
+        "name": "NuGun_UP15+FS_NuGun_UP15_PRMXUP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 59
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 4
             }
         ]
     },
