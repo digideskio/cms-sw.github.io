@@ -1786,7 +1786,7 @@
                 ], 
                 "valgrind": "not-found", 
                 "compared_tags": "CMSSW_5_3_X_2016-06-12-0000-->CMSSW_5_3_X_2016-06-19-0000", 
-                "dqm_tests": "inprogress", 
+                "dqm_tests": "found", 
                 "utests": [
                     {
                         "arch": "slc6_amd64_gcc472", 
@@ -1808,7 +1808,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc472/www/sun/5.3-sun-00/CMSSW_5_3_X_2016-06-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 16, 
+                            "num_passed": 123, 
                             "num_failed": 0
                         }
                     }
@@ -1818,7 +1818,7 @@
                 "tests_archs": [
                     "slc6_amd64_gcc472"
                 ], 
-                "comp_baseline": "inprogress", 
+                "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_5_3_X_2016-06-19-0000/slc6_amd64_gcc472/-GenuineIntel/matrix-results", 
                 "inProgress": false, 
                 "release_name": "CMSSW_5_3_X_2016-06-19-0000", 
                 "RVExceptions": null, 
@@ -5557,9 +5557,11 @@
                 "utests": [
                     {
                         "arch": "slc6_amd64_gcc472", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc472/www/sun/6.2-sun-00/CMSSW_6_2_X_SLHC_2016-06-19-0000/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "failed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc472/www/sun/6.2-sun-00/CMSSW_6_2_X_SLHC_2016-06-19-0000/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "16"
+                        }
                     }
                 ], 
                 "cmsdistTags": {
@@ -5577,7 +5579,7 @@
                 "release_name": "CMSSW_6_2_X_SLHC_2016-06-19-0000", 
                 "RVExceptions": null, 
                 "merged_prs": [], 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "found"
             }, 
             {
                 "fwlite": [], 
@@ -22070,8 +22072,8 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.1-sun-00/CMSSW_8_1_X_2016-06-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1019, 
-                            "num_failed": 5
+                            "num_passed": 1107, 
+                            "num_failed": 7
                         }
                     }
                 ], 
