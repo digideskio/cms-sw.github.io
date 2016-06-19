@@ -2978,6 +2978,28 @@
     },
     {
         "exitcode": 0,
+        "id": "121.0",
+        "name": "TTbar+TTbar2HS+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 96
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 126
+            },
+            {
+                "errors": 95,
+                "status": "PASSED",
+                "warnings": 378
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "122.0",
         "name": "UpsMM+UpsMM+DIGI+RECO",
         "steps": [
@@ -6479,6 +6501,25 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1320.0",
+        "name": "SingleMuPt10_UP15+SingleMuPt10_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
+            },
+            {
+                "status": "PASSED"
             }
         ]
     },
