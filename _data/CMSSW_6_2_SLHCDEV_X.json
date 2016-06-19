@@ -1,0 +1,28 @@
+{
+    "base_branch": "CMSSW_6_2_SLHCDEV_X", 
+    "release_name": "CMSSW_6_2_SLHCDEV_X", 
+    "comparisons": [
+        {
+            "addons": [], 
+            "comp_baseline_state": "ok", 
+            "builds": [], 
+            "valgrind": "not-found", 
+            "compared_tags": "CMSSW_6_2_SLHCDEV_X_2016-06-12-0000-->CMSSW_6_2_SLHCDEV_X", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "cmsdistTags": {}, 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "hlt_tests": "not-found", 
+            "comp_baseline": "inprogress", 
+            "inProgress": false, 
+            "release_name": "CMSSW_6_2_SLHCDEV_X", 
+            "tests_archs": [], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
+            "fwlite": []
+        }
+    ]
+}

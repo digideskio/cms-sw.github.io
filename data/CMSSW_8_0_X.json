@@ -1,0 +1,1861 @@
+{
+    "base_branch": "CMSSW_8_0_X", 
+    "release_name": "CMSSW_8_0_X", 
+    "comparisons": [
+        {
+            "fwlite": [], 
+            "addons": [], 
+            "comp_baseline_state": "ok", 
+            "builds": [], 
+            "compared_tags": "CMSSW_8_0_8_patch1-->CMSSW_8_0_9", 
+            "valgrind": "inprogress", 
+            "utests": [], 
+            "dqm_tests": "inprogress", 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "inprogress", 
+            "cmsdistTags": {}, 
+            "isIB": false, 
+            "comp_baseline": "inprogress", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_9", 
+            "tests_archs": [], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "8ae610de84659e4a97716b70b11b520f91a17e4d", 
+                    "title": "Restore overflow check for et and ht sums", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14650", 
+                    "number": "14650", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-l1t-offline"
+                }, 
+                {
+                    "hash": "31dd5ccc265c8e621185251fd525198c01246129", 
+                    "title": "improve TkMaps", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13972", 
+                    "number": "13972", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fioriNTU"
+                }, 
+                {
+                    "hash": "3745639ca6aed99dafa012415a792ea6818d288c", 
+                    "title": "cleanup RawToDigi redefinition of already loaded from RawToDigi_cff (bp of #14675)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14677", 
+                    "number": "14677", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "slava77"
+                }, 
+                {
+                    "hash": "752d25d63ca04854b5969365abbc547c2bed18bc", 
+                    "title": "Fix for handling copy of offline synchronized tags", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14658", 
+                    "number": "14658", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ggovi"
+                }, 
+                {
+                    "hash": "73ab307b32c81e261977cfdceb98fd38d4b86369", 
+                    "title": "Update L1T to l1t-tsg-v7-cand performance (80x)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14570", 
+                    "number": "14570", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-l1t-offline"
+                }, 
+                {
+                    "hash": "e9b894a4253ee6fb81605202765e4e1ff9755d13", 
+                    "title": "Adding new detectors - integration of RomanPot detectors for CTPPS project - backport of PR #13766", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14578", 
+                    "number": "14578", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "997d62367a4d93d12190ebf5c815095670ce902a", 
+                    "title": "DropBox metadata - 2016 (80X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14265", 
+                    "number": "14265", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "1c5d0a9856194f2d1a7ebba5dcfb6ef800cc5867", 
+                    "title": "Fix for runtestTqafTopEventSelection unit test: use againstElectronVLooseMVA6 instead of againstElectronVLooseMVA5", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14596", 
+                    "number": "14596", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "8e50ef01d1b64f9cb7c6db0157c297fe91c8e60c", 
+                    "title": "CTPPS: new DataFormats related to TOTEM RP raw data and digi - backport of PR #13837", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14579", 
+                    "number": "14579", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "c1d10e197339027fbc5bd9a254777394fe9a929f", 
+                    "title": "Clean-up L1T unpacker warnings", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14617", 
+                    "number": "14617", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-l1t-offline"
+                }, 
+                {
+                    "hash": "ca8026cf55a557b5281957f829f0dc3f8930d618", 
+                    "title": "Online HCAL DQM adding a 3rd application", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13813", 
+                    "number": "13813", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "vkhristenko"
+                }, 
+                {
+                    "hash": "5971e82738dd60930e2800d5c2d5f62241686570", 
+                    "title": "Update OMTF treatment of Muons at edge of OMTF acceptance", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14613", 
+                    "number": "14613", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-l1t-offline"
+                }, 
+                {
+                    "hash": "790adf3846c25d5ab59ab4ba3512cd4cc20b1d7a", 
+                    "title": "Changes for O2O deployment and monitoring", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14437", 
+                    "number": "14437", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ggovi"
+                }, 
+                {
+                    "hash": "c7fae0c1bb805767411623bec9ea707b3e73ae25", 
+                    "title": "Muon analysis updates 8.0.x", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14512", 
+                    "number": "14512", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "usarica"
+                }, 
+                {
+                    "hash": "996072cb14436fcb3ce511689009a551db0b9007", 
+                    "title": "L1 repack 2016 2015 (Full, uGT, Full2015Data) cmssw808", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14551", 
+                    "number": "14551", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-l1t-offline"
+                }, 
+                {
+                    "hash": "6c7072b778f39e8f4ba9ed50c9e01caef5921eb8", 
+                    "title": "[RecoTauTag] allow complete relax of tau isolation at high pt", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14530", 
+                    "number": "14530", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "rmanzoni"
+                }, 
+                {
+                    "hash": "ff2110969175a84d285970133eec855b3b23bbcb", 
+                    "title": "retune max value for Chi2", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14531", 
+                    "number": "14531", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fioriNTU"
+                }, 
+                {
+                    "hash": "9612d2a31e8e59600e91741256582b817220b3a5", 
+                    "title": "L1TGlobalProducer: migrate to stream module (80x)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14477", 
+                    "number": "14477", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fwyzard"
+                }, 
+                {
+                    "hash": "57c8b94a138c9852e438f94d4e0c34a1421d3a14", 
+                    "title": "CTPPS: new CondFormats related to TOTEM RP raw data and digi - backport of #13838", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14600", 
+                    "number": "14600", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "304ee6903c7886ca003f6c31bb686ad6d3d8945a", 
+                    "title": "MCprod l1t Tau Iso Option-21 80x", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14646", 
+                    "number": "14646", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-l1t-offline"
+                }, 
+                {
+                    "hash": "28671c6e0dfce741c4ad537941ac335cb78518b7", 
+                    "title": "Adding L1REPACK:FullMC workflow to run on RAW of MC (80x)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14647", 
+                    "number": "14647", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-l1t-offline"
+                }, 
+                {
+                    "hash": "7ed8ff98927dac2ffe25e675234b1f90a99b2951", 
+                    "title": "fix crash in case Limit on the number of clusters is really exceeded.", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14662", 
+                    "number": "14662", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "VinInn"
+                }, 
+                {
+                    "hash": "2f2eaab9a24465223d17c026a03a4d199322b1e0", 
+                    "title": "Prescale access for stage-2 environment (80X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14336", 
+                    "number": "14336", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Martin-Grunewald"
+                }, 
+                {
+                    "hash": "fb19c35d19beb626f60ecdc88a34cb34ba80440b", 
+                    "title": "Update ResonanceDecayFilterHook.cc", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14566", 
+                    "number": "14566", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "OlivierBondu"
+                }, 
+                {
+                    "hash": "6cdd1bd129c71aa12e4ce015d488511728d9fe7c", 
+                    "title": "HLT development in May (80X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14445", 
+                    "number": "14445", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-tsg-storm"
+                }, 
+                {
+                    "hash": "abc0a3d927f2997ec2b92a65e8c23060617120af", 
+                    "title": "Fix deltaR calculation in HLT widejet module", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14587", 
+                    "number": "14587", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "duanders"
+                }, 
+                {
+                    "hash": "366313f3de958ff6386f3ebe675ffeed5d303864", 
+                    "title": " Add a cut in the HLTPFJetIDProducer module.", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14602", 
+                    "number": "14602", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ndaci"
+                }, 
+                {
+                    "hash": "7b6000533460e8d89c6d6188edd0e23f487eb429", 
+                    "title": "CTPPS: new DataFormats for local TOTEM RP reconstruction, backport of #14134", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14580", 
+                    "number": "14580", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "3fbc49976ad45c3f2be08883faae95d0b5fc211b", 
+                    "title": "Fix for GTEntry_t hash function", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14583", 
+                    "number": "14583", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ggovi"
+                }, 
+                {
+                    "hash": "21e302d74806a99cb45cbf05ae2fd5599cdbf5d0", 
+                    "title": "TH1ClusterCharge and TH1ClusterStoNCorr plots per ring", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14568", 
+                    "number": "14568", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "idebruyn"
+                }, 
+                {
+                    "hash": "453f0db417fb003af8b79e33b486de19f570f640", 
+                    "title": "Disable broken Ewk*DQM modules", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14567", 
+                    "number": "14567", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "dmitrijus"
+                }, 
+                {
+                    "hash": "6b3ba509625cc7f9d0997de40ff3b7824502511a", 
+                    "title": "80X: HLT path/module-name updates in the HLTObjectMonitor", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14501", 
+                    "number": "14501", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bartosik-hep"
+                }, 
+                {
+                    "hash": "a36856ed9be7d01a0e604ca6eddc4fe5ad3fa65b", 
+                    "title": "Fixes for RunInfo O2O and cleanup of PopCon interface (80X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14421", 
+                    "number": "14421", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "diguida"
+                }, 
+                {
+                    "hash": "ffca551b9b80eaf8c122224d44791d15ea49e51f", 
+                    "title": "Monitor CASTOR table data (80X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14462", 
+                    "number": "14462", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "kpedro88"
+                }, 
+                {
+                    "hash": "02ebd55a12328b0288473bbf7100455562075e2b", 
+                    "title": "Adding merging type (DAQ) and changing defaults", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14528", 
+                    "number": "14528", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smorovic"
+                }, 
+                {
+                    "hash": "0c85e7eef7a30ecfcba53f0b580b75f449ff1681", 
+                    "title": "fix det search tollerances for Cosmics", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14467", 
+                    "number": "14467", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "VinInn"
+                }, 
+                {
+                    "hash": "0266c826034962bd0052e0f4a5e650ca54368594", 
+                    "title": "Use PFMETCollection in scouting PF producer", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14588", 
+                    "number": "14588", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "duanders"
+                }
+            ], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "fwlite": [], 
+            "addons": [], 
+            "comp_baseline_state": "ok", 
+            "builds": [], 
+            "compared_tags": "CMSSW_8_0_9-->CMSSW_8_0_10", 
+            "valgrind": "inprogress", 
+            "utests": [], 
+            "dqm_tests": "inprogress", 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "inprogress", 
+            "cmsdistTags": {}, 
+            "isIB": false, 
+            "comp_baseline": "inprogress", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_10", 
+            "tests_archs": [], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "7e4fdcc1ba85b146c0c8a41056acacaf02635560", 
+                    "title": "Update SUSYBSM_HLT_VBF_Mu_cff.py", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14484", 
+                    "number": "14484", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "andresib"
+                }, 
+                {
+                    "hash": "bd8c41a6c6600657b963ec8f528c9eecfb514d9f", 
+                    "title": "Next HLT menu candidate (online and MC production) - 80X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14694", 
+                    "number": "14694", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-tsg-storm"
+                }, 
+                {
+                    "hash": "9d67ba8743ab745b95ae90eb0cdd33a017952515", 
+                    "title": "80X SiStrip Gains PCL cleanup ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14612", 
+                    "number": "14612", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "f8c00f35b631023df39018377dc90ba347c25b74", 
+                    "title": "Fix L1T bug messing with ConfDB parsing (80X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14682", 
+                    "number": "14682", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Martin-Grunewald"
+                }, 
+                {
+                    "hash": "90d8a393075bd8ef8f574a42a353624b0d03d06c", 
+                    "title": "Input files for offline TkCommissioner tool, 80X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14232", 
+                    "number": "14232", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "vdutta"
+                }, 
+                {
+                    "hash": "458c446bd13d1fdc08aa1d0845dc650480cf9213", 
+                    "title": "Updates Calo Scouting triggers in EXO DQM  (80X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14525", 
+                    "number": "14525", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "jruizvar"
+                }, 
+                {
+                    "hash": "2156c69fe2d7a99f381e6729411501a2ecdd0813", 
+                    "title": "HLT Tau DQM updated to stage2 L1", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14427", 
+                    "number": "14427", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "slehti"
+                }, 
+                {
+                    "hash": "ccf9e63aadd11a89341f8a7628eed1b983b58397", 
+                    "title": "barrel vs ladder in roc level in 80x", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13758", 
+                    "number": "13758", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gouskos"
+                }, 
+                {
+                    "hash": "190e3c800abc661a77d1da97cf64e7daab1fc0e0", 
+                    "title": "Latest MillePede fixes 80X (backport of #14592)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14593", 
+                    "number": "14593", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ghellwig"
+                }, 
+                {
+                    "hash": "3a1f556054d9c267909c1a2c52b2b40bf06c69bc", 
+                    "title": "updating SUSY HLT DQM config for lep+HT triggers", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14394", 
+                    "number": "14394", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "olivito"
+                }, 
+                {
+                    "hash": "d0c3a3762f5601f4ce822c63c7a41a702a9c8fbe", 
+                    "title": "do not use unsigned in algebra", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14698", 
+                    "number": "14698", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "VinInn"
+                }, 
+                {
+                    "hash": "c66f5892e17c8600d221da2b16719d9174b7b6e6", 
+                    "title": "Added names for hardcoded constants and added one TP plot", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14369", 
+                    "number": "14369", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "tanmaymudholkar"
+                }, 
+                {
+                    "hash": "b04b748dc2177afe433390d1c6f57de97d997ce2", 
+                    "title": "adding HLTPFMET170_BeamHaloCleaned to SUSY DQM", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14619", 
+                    "number": "14619", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "safarzad"
+                }, 
+                {
+                    "hash": "1de2818d1a9433469c36ce1517d37530b753385d", 
+                    "title": "bsunanda:Run2-alca44 Recover from 0 event selection in IsoTrack Trigger", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14516", 
+                    "number": "14516", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "e0d4c74ea14a755fc18dc57838c6e56d5967a32e", 
+                    "title": "add track hit eff monitoring vs BX", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14448", 
+                    "number": "14448", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mtosi"
+                }, 
+                {
+                    "hash": "bb66e2a65473dd2328ccf10f471711c5ac260a96", 
+                    "title": "Fix statistics of Trend plots", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14517", 
+                    "number": "14517", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mbandrews"
+                }, 
+                {
+                    "hash": "fd809a6bcbb4e405a3350e1a92bbb70039b89d10", 
+                    "title": "CTPPS new reconstruction geometry related to TOTEM RP detectors - backport of #14029", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14630", 
+                    "number": "14630", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "a6dc6a872656d3774bbbf008b3ced40c6218601f", 
+                    "title": "SUSY HLT DQM updates for trimuon and dimu+MET paths, 80X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14581", 
+                    "number": "14581", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "olivito"
+                }, 
+                {
+                    "hash": "a02b12a83f87cd869f96771f257fda068ed1d7e5", 
+                    "title": "CTPPS: new EventFilter for raw-to-digi conversion of TOTEM RP data - backport of PR #13839", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14603", 
+                    "number": "14603", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "f58b3c81713f5b4c98f4276cdeb4b7c0611734b8", 
+                    "title": "HLT DQM for High Multiplicity Triggers for 2016 low PU run", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13920", 
+                    "number": "13920", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "zc11"
+                }, 
+                {
+                    "hash": "4a3dda7285ec453339819483c94ad626cf2d2642", 
+                    "title": "L1TStage2uGT DQM Update: Algorithm bit vs global BX fix", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14634", 
+                    "number": "14634", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mzarucki"
+                }
+            ], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "fwlite": [], 
+            "addons": [], 
+            "comp_baseline_state": "ok", 
+            "builds": [], 
+            "compared_tags": "CMSSW_8_0_10-->CMSSW_8_0_10_patch1", 
+            "valgrind": "inprogress", 
+            "utests": [], 
+            "dqm_tests": "inprogress", 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "inprogress", 
+            "cmsdistTags": {}, 
+            "isIB": false, 
+            "comp_baseline": "inprogress", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_10_patch1", 
+            "tests_archs": [], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "e92ed8710bc4df243391db064e58933d47bec14c", 
+                    "title": "removing max updates limit (DAQ)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14687", 
+                    "number": "14687", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smorovic"
+                }, 
+                {
+                    "hash": "eadacf39d09a271daecd1e6f91f2452b5bf494b8", 
+                    "title": " CTPPS: tracking of the numberOfClusters field sent by VFAT - backport of #14615", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14758", 
+                    "number": "14758", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "871cd7f0ff390c6372d09b36b8a02af52b1fe1db", 
+                    "title": "Change code to not stop on SRP block error and proceed with FE -  80X  base", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14771", 
+                    "number": "14771", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "grasph"
+                }, 
+                {
+                    "hash": "78d347badf10c8859775124d364460ce1b8ee16e", 
+                    "title": "80X Workaround MT problem in HIPixelMedianVtxProducer ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14725", 
+                    "number": "14725", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Martin-Grunewald"
+                }, 
+                {
+                    "hash": "88d8e0ed12ea3a5b20edc16dc086e79ef3db4d64", 
+                    "title": "Vertex smearing parameters for 2016", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14737", 
+                    "number": "14737", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "MilanoBicocca-pix"
+                }, 
+                {
+                    "hash": "d8fd063cde104ca47de85e3e2704cfdcc7bc67a0", 
+                    "title": "Changes to allow to use the db writer for the monitoring. ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14734", 
+                    "number": "14734", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ggovi"
+                }
+            ], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "fwlite": [], 
+            "addons": [], 
+            "comp_baseline_state": "ok", 
+            "builds": [], 
+            "compared_tags": "CMSSW_8_0_10_patch1-->CMSSW_8_0_10_patch2", 
+            "valgrind": "inprogress", 
+            "utests": [], 
+            "dqm_tests": "inprogress", 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "inprogress", 
+            "cmsdistTags": {}, 
+            "isIB": false, 
+            "comp_baseline": "inprogress", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_10_patch2", 
+            "tests_archs": [], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "a4a2d346851a0211d6f9d163c95bc99ab47e08c0", 
+                    "title": "Negative and positive C-tagger in 80X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14642", 
+                    "number": "14642", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "kovitang"
+                }, 
+                {
+                    "hash": "c6d0a00a5b68b8109477f627ccadb43230cf8161", 
+                    "title": "Fasten pix hit matcher 80 x", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14779", 
+                    "number": "14779", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fcouderc"
+                }, 
+                {
+                    "hash": "a52e0cee9db74d9fe4c73a7ddbeb63c2335be06b", 
+                    "title": "Heppy 8 0 5", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14234", 
+                    "number": "14234", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cbernet"
+                }, 
+                {
+                    "hash": "6de7cf9c2762661f58d9040f2a81e478154245c6", 
+                    "title": "CTPPS: era-related modifications - backport of #14616", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14716", 
+                    "number": "14716", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "f31bc4635e9185e0096653b3f20199e1f2b9489a", 
+                    "title": "Fix memory blowup in ALCAHARVEST 80X (backport of #14721)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14722", 
+                    "number": "14722", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ghellwig"
+                }
+            ], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-12-0000/new_FWLITE/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 1
+                    }
+                }
+            ], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-12-0000/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-12-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "ok", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-12-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 21, 
+                        "ignoreWarning": 274
+                    }
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-12-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 16, 
+                        "ignoreWarning": 279
+                    }
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-12-0000/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 1, 
+                        "ignoreWarning": 8
+                    }
+                }
+            ], 
+            "compared_tags": "CMSSW_8_0_10_patch2-->CMSSW_8_0_X_2016-06-12-0000", 
+            "valgrind": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-12-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "4"
+                    }
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-12-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "4"
+                    }
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-12-0000/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "dqm_tests": "found", 
+            "igprof": "not-found", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-12-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }, 
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-12-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1296, 
+                        "num_failed": 5
+                    }
+                }, 
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-12-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }
+            ], 
+            "static_checks": "slc6_amd64_gcc530:reports/modules2statics-filter1.txt\n", 
+            "cmsdistTags": {
+                "slc6_amd64_gcc493": "IB/CMSSW_8_0_X_2016-06-12-0000/slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-06-12-0000/slc6_amd64_gcc530", 
+                "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2016-06-12-0000/slc7_amd64_gcc530"
+            }, 
+            "isIB": true, 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_0_X_2016-06-12-0000/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_X_2016-06-12-0000", 
+            "tests_archs": [
+                "slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530", 
+                "slc7_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "5cbd40d82002d658c0adbf712e96d48d41264a5a", 
+                    "title": "80x Fireworks: Increase severity of FWRecoGeometryESProducer messages", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14845", 
+                    "number": "14845", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "alja"
+                }, 
+                {
+                    "hash": "1e10ba4b04299b3953a3fb2e9dd68d5c3e25371a", 
+                    "title": "adding dqm for double lepton trigger", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/13956", 
+                    "number": "13956", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "clint-richardson"
+                }, 
+                {
+                    "hash": "916076772b73dd6292bce24b52ea49cef86e81cc", 
+                    "title": "initialize apparently useless variables in GenMET (backport of #14767)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14768", 
+                    "number": "14768", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "slava77"
+                }, 
+                {
+                    "hash": "1cd82f270340bb3e3855ca6bf9ec33940b61b0fd", 
+                    "title": "Set entire FED to BAD Qt for vanishing occupancy", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14704", 
+                    "number": "14704", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mbandrews"
+                }, 
+                {
+                    "hash": "07608b68ab98c8ea1004fc87778506bdd1b8f8e2", 
+                    "title": "HLT v2.1 update (80X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14812", 
+                    "number": "14812", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-tsg-storm"
+                }, 
+                {
+                    "hash": "5450e337b37356be968239607bb8f92630c3e29e", 
+                    "title": "L1T - wide window cancel-out parameters in uGMT - 80x", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14823", 
+                    "number": "14823", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-l1t-offline"
+                }
+            ], 
+            "hlt_tests": "found"
+        }, 
+        {
+            "fwlite": [], 
+            "addons": [], 
+            "comp_baseline_state": "ok", 
+            "builds": [], 
+            "compared_tags": "CMSSW_8_0_X_2016-06-12-0000-->CMSSW_8_0_11", 
+            "valgrind": "inprogress", 
+            "utests": [], 
+            "dqm_tests": "inprogress", 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "inprogress", 
+            "cmsdistTags": {}, 
+            "isIB": false, 
+            "comp_baseline": "inprogress", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_11", 
+            "tests_archs": [], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "a36a6a4e378c57d0589d819bd0b8dfd4d30f150f", 
+                    "title": "80x: add pixel barycenter computation tool", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14759", 
+                    "number": "14759", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-trackeralign"
+                }
+            ], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-06-12-2300/new_FWLITE/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 1
+                    }
+                }
+            ], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-06-12-2300/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-06-12-2300/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-06-12-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "ok", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-06-12-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-06-12-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-06-12-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "compared_tags": "CMSSW_8_0_11-->CMSSW_8_0_X_2016-06-12-2300", 
+            "valgrind": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-06-12-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-06-12-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "5"
+                    }
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-06-12-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "5"
+                    }
+                }
+            ], 
+            "dqm_tests": "found", 
+            "igprof": "not-found", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-06-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }, 
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-06-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }, 
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.0-sun-23/CMSSW_8_0_X_2016-06-12-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }
+            ], 
+            "static_checks": "slc6_amd64_gcc530:reports/modules2statics-filter1.txt\n", 
+            "cmsdistTags": {
+                "slc6_amd64_gcc493": "IB/CMSSW_8_0_X_2016-06-12-0000/slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-06-12-0000/slc6_amd64_gcc530", 
+                "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2016-06-12-0000/slc7_amd64_gcc530"
+            }, 
+            "isIB": true, 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_0_X_2016-06-12-2300/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_X_2016-06-12-2300", 
+            "tests_archs": [
+                "slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530", 
+                "slc7_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
+            "hlt_tests": "found"
+        }, 
+        {
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0-tue-23/CMSSW_8_0_X_2016-06-14-2300/new_FWLITE/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 1
+                    }
+                }
+            ], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0-tue-23/CMSSW_8_0_X_2016-06-14-2300/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/tue/8.0-tue-23/CMSSW_8_0_X_2016-06-14-2300/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/tue/8.0-tue-23/CMSSW_8_0_X_2016-06-14-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "ok", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0-tue-23/CMSSW_8_0_X_2016-06-14-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/tue/8.0-tue-23/CMSSW_8_0_X_2016-06-14-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/tue/8.0-tue-23/CMSSW_8_0_X_2016-06-14-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "compared_tags": "CMSSW_8_0_X_2016-06-12-2300-->CMSSW_8_0_X_2016-06-14-2300", 
+            "valgrind": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0-tue-23/CMSSW_8_0_X_2016-06-14-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "4"
+                    }
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/tue/8.0-tue-23/CMSSW_8_0_X_2016-06-14-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "5"
+                    }
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/tue/8.0-tue-23/CMSSW_8_0_X_2016-06-14-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "4"
+                    }
+                }
+            ], 
+            "dqm_tests": "found", 
+            "igprof": "not-found", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/tue/8.0-tue-23/CMSSW_8_0_X_2016-06-14-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1286, 
+                        "num_failed": 3
+                    }
+                }, 
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/tue/8.0-tue-23/CMSSW_8_0_X_2016-06-14-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1243, 
+                        "num_failed": 16
+                    }
+                }, 
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/tue/8.0-tue-23/CMSSW_8_0_X_2016-06-14-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }
+            ], 
+            "static_checks": "slc6_amd64_gcc530:reports/modules2statics-filter1.txt\n", 
+            "cmsdistTags": {
+                "slc6_amd64_gcc493": "IB/CMSSW_8_0_X_2016-06-12-0000/slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-06-12-0000/slc6_amd64_gcc530", 
+                "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2016-06-12-0000/slc7_amd64_gcc530"
+            }, 
+            "isIB": true, 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_0_X_2016-06-14-2300/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_X_2016-06-14-2300", 
+            "tests_archs": [
+                "slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530", 
+                "slc7_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "dcf135b689a87c9b7121373fba94c995baf21065", 
+                    "title": "CTPPS: XML file with RP positions at 15sigma and no margin - backport of #14797", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14798", 
+                    "number": "14798", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "44c6dc2ccc4827e3185b69d4711e4f3ca43c3860", 
+                    "title": "Move to 'relval' GTs for TSG HLT tests (80X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14850", 
+                    "number": "14850", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Martin-Grunewald"
+                }, 
+                {
+                    "hash": "5aa3198136acbe5db7280e673428f55f5c344404", 
+                    "title": "add abs(dxy) plot in tracking DQM", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14826", 
+                    "number": "14826", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mtosi"
+                }, 
+                {
+                    "hash": "bb5cc219e59e229ffdc7aadec1e34bc3948bba66", 
+                    "title": "add fillDescriptions function needed by the HLT : CorrPFMETProducer (80X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14841", 
+                    "number": "14841", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-met"
+                }, 
+                {
+                    "hash": "ce8a8aadfaebb80dd304fdb7489f2d8a8be706d1", 
+                    "title": "Improve Express GT query to Tier0 DataService for Event Display (80X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14860", 
+                    "number": "14860", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "diguida"
+                }
+            ], 
+            "hlt_tests": "found"
+        }, 
+        {
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/wed/8.0-wed-23/CMSSW_8_0_X_2016-06-15-2300/new_FWLITE/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 1
+                    }
+                }
+            ], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/wed/8.0-wed-23/CMSSW_8_0_X_2016-06-15-2300/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/wed/8.0-wed-23/CMSSW_8_0_X_2016-06-15-2300/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/wed/8.0-wed-23/CMSSW_8_0_X_2016-06-15-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "ok", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/wed/8.0-wed-23/CMSSW_8_0_X_2016-06-15-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/wed/8.0-wed-23/CMSSW_8_0_X_2016-06-15-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/wed/8.0-wed-23/CMSSW_8_0_X_2016-06-15-2300/new/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "compared_tags": "CMSSW_8_0_X_2016-06-14-2300-->CMSSW_8_0_X_2016-06-15-2300", 
+            "valgrind": "found", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/wed/8.0-wed-23/CMSSW_8_0_X_2016-06-15-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "5"
+                    }
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/wed/8.0-wed-23/CMSSW_8_0_X_2016-06-15-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "4"
+                    }
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/wed/8.0-wed-23/CMSSW_8_0_X_2016-06-15-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "dqm_tests": "found", 
+            "igprof": "not-found", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/wed/8.0-wed-23/CMSSW_8_0_X_2016-06-15-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1301, 
+                        "num_failed": 3
+                    }
+                }, 
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/wed/8.0-wed-23/CMSSW_8_0_X_2016-06-15-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }, 
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/wed/8.0-wed-23/CMSSW_8_0_X_2016-06-15-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }
+            ], 
+            "static_checks": "slc6_amd64_gcc530:reports/modules2statics-filter1.txt\n", 
+            "cmsdistTags": {
+                "slc6_amd64_gcc493": "IB/CMSSW_8_0_X_2016-06-12-0000/slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-06-12-0000/slc6_amd64_gcc530", 
+                "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2016-06-12-0000/slc7_amd64_gcc530"
+            }, 
+            "isIB": true, 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_0_X_2016-06-15-2300/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_X_2016-06-15-2300", 
+            "tests_archs": [
+                "slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530", 
+                "slc7_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "7095875ada0a430056906ba7261deda96e52306c", 
+                    "title": "HipPy update for release 80X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14834", 
+                    "number": "14834", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "HipPydevelopment"
+                }, 
+                {
+                    "hash": "fc7612474925836a8fa6b99597159f51af74ff77", 
+                    "title": "CTPPS: DAQ mapping update - backport of #14828", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14873", 
+                    "number": "14873", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "9d6d4940bd1b6642894bc8ec46d2faff8a19f11b", 
+                    "title": "Retuning QTest for 2016 data", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14715", 
+                    "number": "14715", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fioriNTU"
+                }
+            ], 
+            "hlt_tests": "found"
+        }, 
+        {
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-11/CMSSW_8_0_X_2016-06-16-1100/new_FWLITE/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 1
+                    }
+                }
+            ], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-11/CMSSW_8_0_X_2016-06-16-1100/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/thu/8.0-thu-11/CMSSW_8_0_X_2016-06-16-1100/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/thu/8.0-thu-11/CMSSW_8_0_X_2016-06-16-1100/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "ok", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-11/CMSSW_8_0_X_2016-06-16-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 204
+                    }
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/thu/8.0-thu-11/CMSSW_8_0_X_2016-06-16-1100/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 22
+                    }
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/thu/8.0-thu-11/CMSSW_8_0_X_2016-06-16-1100/new/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
+            "compared_tags": "CMSSW_8_0_X_2016-06-15-2300-->CMSSW_8_0_X_2016-06-16-1100", 
+            "valgrind": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-11/CMSSW_8_0_X_2016-06-16-1100/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "4"
+                    }
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/thu/8.0-thu-11/CMSSW_8_0_X_2016-06-16-1100/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "5"
+                    }
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/thu/8.0-thu-11/CMSSW_8_0_X_2016-06-16-1100/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "4"
+                    }
+                }
+            ], 
+            "dqm_tests": "found", 
+            "igprof": "not-found", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-11/CMSSW_8_0_X_2016-06-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }, 
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/thu/8.0-thu-11/CMSSW_8_0_X_2016-06-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }, 
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/thu/8.0-thu-11/CMSSW_8_0_X_2016-06-16-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }
+            ], 
+            "static_checks": "slc6_amd64_gcc530:reports/modules2statics-filter1.txt\n", 
+            "cmsdistTags": {
+                "slc6_amd64_gcc493": "IB/CMSSW_8_0_X_2016-06-12-0000/slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-06-12-0000/slc6_amd64_gcc530", 
+                "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2016-06-12-0000/slc7_amd64_gcc530"
+            }, 
+            "isIB": true, 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_0_X_2016-06-16-1100/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_X_2016-06-16-1100", 
+            "tests_archs": [
+                "slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530", 
+                "slc7_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "04a00fc9a748c3894d8777e2a64ac34860d4b71a", 
+                    "title": "Updating AlCaRecoTriggerBits for Tracker DQM and miscellanea in re-reco GTs", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14889", 
+                    "number": "14889", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }
+            ], 
+            "hlt_tests": "found"
+        }, 
+        {
+            "fwlite": [], 
+            "addons": [], 
+            "comp_baseline_state": "ok", 
+            "builds": [], 
+            "compared_tags": "CMSSW_8_0_X_2016-06-16-1100-->CMSSW_8_0_12", 
+            "valgrind": "inprogress", 
+            "utests": [], 
+            "dqm_tests": "inprogress", 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "inprogress", 
+            "cmsdistTags": {}, 
+            "isIB": false, 
+            "comp_baseline": "inprogress", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_12", 
+            "tests_archs": [], 
+            "RVExceptions": null, 
+            "merged_prs": [
+                {
+                    "hash": "e6d8404df73c3d129424dd29c5857542a9a9e3e1", 
+                    "title": "CTPPS: TOTEM RP local reconstruction algorithms - backport of #14605", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14880", 
+                    "number": "14880", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }, 
+                {
+                    "hash": "3d1e61dea3d783ec963e516a0bc0e1d7e6178b66", 
+                    "title": "CDC in 80X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14791", 
+                    "number": "14791", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "aspiezia"
+                }, 
+                {
+                    "hash": "bc069461c94c0c27e5006806a13e2600e609eac6", 
+                    "title": "add a module to spend cpu time", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14894", 
+                    "number": "14894", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "a2b18949e58a94342bd809385b14fcb48d1b136b", 
+                    "title": "retuning of Pixel top Summary plot", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14883", 
+                    "number": "14883", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fioriNTU"
+                }, 
+                {
+                    "hash": "702bba5d5b2d3a095ff33d8863a1f80b13e46a3a", 
+                    "title": "b-tag-calib-8_0_X", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/14788", 
+                    "number": "14788", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "HeinerTholen"
+                }
+            ], 
+            "hlt_tests": "inprogress"
+        }, 
+        {
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-14/CMSSW_8_0_X_2016-06-16-1400/new_FWLITE/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 1
+                    }
+                }
+            ], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-14/CMSSW_8_0_X_2016-06-16-1400/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/thu/8.0-thu-14/CMSSW_8_0_X_2016-06-16-1400/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/thu/8.0-thu-14/CMSSW_8_0_X_2016-06-16-1400/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "ok", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-14/CMSSW_8_0_X_2016-06-16-1400/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 13, 
+                        "ignoreWarning": 282
+                    }
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/thu/8.0-thu-14/CMSSW_8_0_X_2016-06-16-1400/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 14, 
+                        "ignoreWarning": 281
+                    }
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/thu/8.0-thu-14/CMSSW_8_0_X_2016-06-16-1400/new/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 1, 
+                        "ignoreWarning": 8
+                    }
+                }
+            ], 
+            "compared_tags": "CMSSW_8_0_12-->CMSSW_8_0_X_2016-06-16-1400", 
+            "valgrind": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-14/CMSSW_8_0_X_2016-06-16-1400/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "4"
+                    }
+                }, 
+                {
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/thu/8.0-thu-14/CMSSW_8_0_X_2016-06-16-1400/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "5"
+                    }
+                }, 
+                {
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/thu/8.0-thu-14/CMSSW_8_0_X_2016-06-16-1400/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "4"
+                    }
+                }
+            ], 
+            "dqm_tests": "found", 
+            "igprof": "not-found", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-14/CMSSW_8_0_X_2016-06-16-1400/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }, 
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/thu/8.0-thu-14/CMSSW_8_0_X_2016-06-16-1400/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }, 
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc493", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/thu/8.0-thu-14/CMSSW_8_0_X_2016-06-16-1400/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1302, 
+                        "num_failed": 3
+                    }
+                }
+            ], 
+            "static_checks": "slc6_amd64_gcc530:reports/modules2statics-filter1.txt\n", 
+            "cmsdistTags": {
+                "slc6_amd64_gcc493": "IB/CMSSW_8_0_X_2016-06-16-1400/slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-06-16-1400/slc6_amd64_gcc530", 
+                "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2016-06-16-1400/slc7_amd64_gcc530"
+            }, 
+            "isIB": true, 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_0_X_2016-06-16-1400/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_X_2016-06-16-1400", 
+            "tests_archs": [
+                "slc6_amd64_gcc493", 
+                "slc6_amd64_gcc530", 
+                "slc7_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
+            "hlt_tests": "found"
+        }, 
+        {
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "warning", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-23/CMSSW_8_0_X_2016-06-16-2300/new_FWLITE/logAnalysis.pkl", 
+                    "details": {
+                        "compWarning": 1
+                    }
+                }
+            ], 
+            "addons": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-23/CMSSW_8_0_X_2016-06-16-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "comp_baseline_state": "ok", 
+            "builds": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-23/CMSSW_8_0_X_2016-06-16-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 204
+                    }
+                }
+            ], 
+            "compared_tags": "CMSSW_8_0_X_2016-06-16-1400-->CMSSW_8_0_X_2016-06-16-2300", 
+            "valgrind": "found", 
+            "utests": [
+                {
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-23/CMSSW_8_0_X_2016-06-16-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "4"
+                    }
+                }
+            ], 
+            "dqm_tests": "found", 
+            "igprof": "not-found", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc6_amd64_gcc530", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/thu/8.0-thu-23/CMSSW_8_0_X_2016-06-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 1274, 
+                        "num_failed": 11
+                    }
+                }
+            ], 
+            "static_checks": "slc6_amd64_gcc530:reports/modules2statics-filter1.txt\n", 
+            "cmsdistTags": {
+                "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2016-06-16-1400/slc6_amd64_gcc530"
+            }, 
+            "isIB": true, 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_8_0_X_2016-06-16-2300/slc6_amd64_gcc530/-GenuineIntel/matrix-results", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_X_2016-06-16-2300", 
+            "tests_archs": [
+                "slc6_amd64_gcc530"
+            ], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
+            "hlt_tests": "found"
+        }, 
+        {
+            "fwlite": [], 
+            "addons": [], 
+            "comp_baseline_state": "ok", 
+            "builds": [], 
+            "compared_tags": "CMSSW_8_0_X_2016-06-16-2300-->CMSSW_8_0_X", 
+            "valgrind": "inprogress", 
+            "utests": [], 
+            "dqm_tests": "inprogress", 
+            "igprof": "not-found", 
+            "relvals": [], 
+            "static_checks": "inprogress", 
+            "cmsdistTags": {}, 
+            "isIB": false, 
+            "comp_baseline": "inprogress", 
+            "inProgress": false, 
+            "release_name": "CMSSW_8_0_X", 
+            "tests_archs": [], 
+            "RVExceptions": null, 
+            "merged_prs": [], 
+            "hlt_tests": "inprogress"
+        }
+    ]
+}
