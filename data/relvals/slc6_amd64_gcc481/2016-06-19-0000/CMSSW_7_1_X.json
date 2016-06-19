@@ -1,0 +1,14 @@
+[
+    {
+        "exitcode": 0,
+        "id": "46.0",
+        "name": "ZmumuJets_Pt_20_300+ZmumuJets_Pt_20_300INPUT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    }
+]
