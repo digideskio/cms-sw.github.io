@@ -5071,8 +5071,8 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc491/www/sun/7.4-sun-00/CMSSW_7_4_X_2016-06-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 472, 
-                        "num_failed": 40
+                        "num_passed": 696, 
+                        "num_failed": 43
                     }
                 }
             ], 
@@ -5081,7 +5081,7 @@
                 "slc6_amd64_gcc491": "IB/CMSSW_7_4_X_2016-06-19-0000/slc6_amd64_gcc491"
             }, 
             "isIB": true, 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_7_4_X_2016-06-19-0000/slc6_amd64_gcc491/-GenuineIntel/matrix-results", 
             "inProgress": false, 
             "release_name": "CMSSW_7_4_X_2016-06-19-0000", 
             "tests_archs": [
