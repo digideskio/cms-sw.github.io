@@ -2381,6 +2381,33 @@
     },
     {
         "exitcode": 0,
+        "id": "28.0",
+        "name": "QCD_Pt_80_120+QCD_Pt_80_120INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 67
+            },
+            {
+                "errors": 808,
+                "status": "PASSED",
+                "warnings": 1272
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 9
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "29.0",
         "name": "ZEE+ZEEINPUT+DIGI+RECOAlCaCalo+HARVEST",
         "steps": [
@@ -7515,6 +7542,33 @@
             },
             {
                 "errors": 153,
+                "status": "PASSED",
+                "warnings": 158
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1340.0",
+        "name": "PhiToMuMu_13+PhiToMuMu_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 326
+            },
+            {
+                "errors": 22,
                 "status": "PASSED",
                 "warnings": 158
             },
