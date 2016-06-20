@@ -15206,6 +15206,14 @@
                 "valgrind": "inprogress", 
                 "utests": [
                     {
+                        "arch": "slc6_amd64_gcc493", 
+                        "passed": "failed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-19-0000/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "4"
+                        }
+                    }, 
+                    {
                         "arch": "slc6_amd64_gcc530", 
                         "passed": "unknown", 
                         "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-19-0000/new/logAnalysis.pkl']", 
@@ -15216,15 +15224,9 @@
                         "passed": "unknown", 
                         "file": "['/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-19-0000/new/logAnalysis.pkl']", 
                         "details": {}
-                    }, 
-                    {
-                        "arch": "slc6_amd64_gcc493", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-19-0000/new/logAnalysis.pkl']", 
-                        "details": {}
                     }
                 ], 
-                "dqm_tests": "inprogress", 
+                "dqm_tests": "found", 
                 "igprof": "not-found", 
                 "relvals": [
                     {
@@ -15233,7 +15235,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc493/www/sun/8.0-sun-00/CMSSW_8_0_X_2016-06-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 593, 
+                            "num_passed": 779, 
                             "num_failed": 5
                         }
                     }
